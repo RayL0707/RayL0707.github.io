@@ -79,5 +79,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://0c57f24a7b158c001daffdaa479353352933f342@github.com/RayL0707/RayL0707.github.io
+  repo: https://gh_token@github.com/RayL0707/RayL0707.github.io
   branch: master
