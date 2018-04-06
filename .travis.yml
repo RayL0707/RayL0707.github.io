@@ -16,6 +16,7 @@ branches:
     - hexo
 
 before_install:
+  -cd blog
   - npm install -g hexo-cli
 
 # Start: Build Lifecycle
@@ -25,7 +26,6 @@ install:
 
 # 执行清缓存，生成网页操作
 script:
-  - cd blog
   - hexo clean
   - hexo generate
 
